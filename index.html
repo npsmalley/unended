@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -66,9 +67,14 @@
     }
 
     /* Turn off parallax scrolling for tablets and phones */
-    @media only screen and (max-width: 767px) {
-      body {
+    @media only screen and (max-device-width: 747px) {
+
+      .bgimg-1 {
         background-image: url("images/unended_mobile.png");
+      },
+      .bgimg-2,
+      .bgimg-3 {
+        background-attachment: scroll;
       }
     }
   </style>
