@@ -8,27 +8,78 @@
   <link rel="icon" href="../favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+
   body, html {
     height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
   }
 
-  .parallax {
-    /* The image used */
-    background-image: url('../images/unended_website.png');
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .bgimg-1 {
+    background-image: url("../images/unended_website.png");
+    min-height: 100%;
+  }
+
+  .bgimg-2 {
+    background-image: url("../images/.png");
+    min-height: 400px;
+  }
+
+  .bgimg-3 {
+    background-image: url("../images/.png");
+    min-height: 400px;
+  }
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
   }
   </style>
   </head>
   <body>
+    <div class="bgimg-1"></div>
 
-  <div class="parallax"></div>
-
-  <div style="height:1000px;background-color:white;font-size:36px">
-  Scroll Up and Down this page to see the parallax scrolling effect.
-  This div is just here to enable scrolling.
-  Tip: Try to remove the background-attachment property to remove the scrolling effect.
-  </div>
-
-  <div class="parallax"></div>
+    <div style="color: #777;background-color:white; text-align:center; padding:50px 150px; text-align: justify;">
+      <h3 style="text-align:center;">About our podcast</h3>
+      <p>Have you ever watched a show that was cancelled prematurely? Been frustrated by unresolved story arcs? Invested in characters who never got the ending they deserved?
+        Then this is the podcast for you. Unended explores the shows which never quite reached their full potential. Join me and my guests as we discuss the highs and lows of these could be classics,
+        and explore what might have been.</p>
+    </div>
 
   </body>
 
