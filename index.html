@@ -29,7 +29,8 @@
 
     .bgimg-1 {
       background-image: url("images/unended_website.png");
-      min-height: 100%;
+      width: 100%;
+      height: auto;
     }
 
     .bgimg-2 {
@@ -69,9 +70,7 @@
     /* Turn off parallax scrolling for tablets and phones */
     @media only screen and (max-device-width: 747px) {
 
-      .bgimg-1 {
-        background-image: url("images/unended_mobile.png");
-      },
+      .bgimg-1,
       .bgimg-2,
       .bgimg-3 {
         background-attachment: scroll;
@@ -83,7 +82,7 @@
 <body>
   <div class="bgimg-1"></div>
 
-  <div style="color: #777;background-color:white; text-align:center; padding:50px 150px; text-align: justify;">
+  <div style="color: #777;background-color:white; text-align:center; padding:50px 80px; text-align: justify;">
     <h3 style="text-align:center;">About our podcast</h3>
     <p>Have you ever watched a show that was cancelled prematurely? Been frustrated by unresolved story arcs? Invested in characters who never got the ending they deserved?
       Then this is the podcast for you. Unended explores the shows which never quite reached their full potential. Join me and my guests as we discuss the highs and lows of these could be classics,
