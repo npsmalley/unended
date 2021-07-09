@@ -4,6 +4,7 @@ html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+  text-align: justify;
 }
 
 .bgimg-1,
@@ -50,8 +51,7 @@ html {
 }
 
 div {
-  text-align: center;
-  padding: 50px 80px;
+  padding: 50px 100px;
 }
 
 h3 {
@@ -69,9 +69,5 @@ h3 {
     width: auto;
     background-attachment: scroll;
     min-height: 40%;
-  }
-
-  div {
-    padding: 40px 30px;
   }
 }
