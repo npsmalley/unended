@@ -4,7 +4,7 @@ html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
-  text-align: justify;
+  text-align: center;
 }
 
 .bgimg-1,
@@ -15,43 +15,34 @@ html {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-
+  min-height: 75%;
 }
 
 .bgimg-1 {
   background-image: url("../images/unended_header.png");
-  min-height: 100%;
 }
 
 .bgimg-2 {
   background-image: url("../images/me.png");
-  min-height: 100%;
 }
 
 .bgimg-3 {
-  background-image: url("../images/.png");
-  min-height: 100%;
+  background-image: url("../images/blank.png");
 }
 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
+.icon-1,
+.icon-2 {}
+
+.icon-1 {
+  image: url("../images/facebook.png");
 }
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+.icon-2 {
+  image: url("../images/twitter.png");
 }
 
 div {
-  padding: 50px 300px;
+  padding: 50px 450px;
 }
 
 h3 {
@@ -70,6 +61,7 @@ h3 {
     background-attachment: scroll;
     min-height: 40%;
   }
+
   div {
     padding: 20px 40px
   }
