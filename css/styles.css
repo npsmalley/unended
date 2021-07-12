@@ -15,7 +15,7 @@ html {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 75%;
+  min-height: 90%;
 }
 
 .bgimg-1 {
@@ -30,17 +30,6 @@ html {
   background-image: url("../images/blank.png");
 }
 
-.icon-1,
-.icon-2 {}
-
-.icon-1 {
-  image: url("../images/facebook.png");
-}
-
-.icon-2 {
-  image: url("../images/twitter.png");
-}
-
 div {
   padding: 50px 450px;
 }
@@ -49,6 +38,41 @@ h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
+}
+
+.fa {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.glyphicon {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.glyphicon-envelope {
+  color: black;
+}
+
+.fa-facebook {
+  padding: 10px 13px;
+  color: black;
+}
+
+.fa-twitter {
+  color: black;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
