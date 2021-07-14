@@ -2,7 +2,6 @@
 
 html {
   height: 100%;
-  width:150%
   overflow: hidden;
 }
 
@@ -18,12 +17,11 @@ body {
 }
 
 h1 {
-   font-size: 250%;
+   font-size: 6vh;
 }
 
 p {
-  font-size: 140%;
-  line-height: 150%;
+  font-size: 4vh;
 }
 
 .slide {
@@ -102,7 +100,6 @@ img {
 
 #title {
   background-image: url("../images/unended_header.png");
-  background-size: cover;
   z-index:2;
 }
 
@@ -119,7 +116,6 @@ img {
 
 #slide2 {
   background-image: url("../images/blank.png");
-  background-size: cover;
   z-index:2;
 }
 
