@@ -17,11 +17,11 @@ body {
 }
 
 h1 {
-   font-size: 6vh;
+   font-size: 5vh;
 }
 
 p {
-  font-size: 4vh;
+  font-size: 3vh;
 }
 
 .slide {
@@ -38,8 +38,8 @@ img {
   position: absolute;
   top: 60%;
   left: 35%;
-  width: 480px;
-  height: 440px;
+  max-width: 480px;
+  max-height: 440px;
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-120%);
 }
 
