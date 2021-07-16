@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
+@import 'size-units', 'media-queries', 'mixins';
 
 html {
   height: 100%;
@@ -17,7 +18,7 @@ body {
 }
 
 h1 {
-   font-size: 5vh;
+   font-size: 4.5vh;
 }
 
 p {
@@ -126,11 +127,4 @@ background-image {
 
 #slide3 {
   background: white;
-}
-
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
 }
