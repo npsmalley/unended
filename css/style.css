@@ -120,6 +120,7 @@ background-image {
 
 #slide2 {
   background-image: url("../images/blank.png");
+  color: #fff;
   z-index:2;
 }
 
